@@ -1,0 +1,180 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>OpenFootprint</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo"><img src="images/openfootprint_logo_w.png" class="of_logo"></a>
+					<nav id="nav">
+						<a href="#header">Home</a>
+						<a href="#features">Learn More</a>
+						<a href="#contactus">Contact</a>
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+			</header>
+
+		<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+					<header>
+						<h1>Welcome to OpenFootprint.io</h1>
+					</header>
+
+					<div class="flex">
+						
+						<div class="opener_outer">
+							<div>
+								<img src="images/openfootprint_logo_circle_lrg.png" class="logo_cicle" alt="open footprint logo circle">
+							
+							</div>
+							<div class="opener_text">
+								Open Footprint is a data driven app providing users with a way to quantify their carbon footprint.  Providing suggestions on how to lower carbon impact as well as ways to purchase carbon offsets and fund carbon-reducing companies and projects.
+								<br><br>
+								The goal is to develop a carbon footprint rating system for consumer products, similar to supplement facts, that will quantify the carbon footprint of each product.
+								<br><br>	
+								This rating system will provide 2 main benefits.  It will act as a data source for Open Footprint to quantify user's actual footprint based on consumption patterns. As well as incentivize industry partners to be open about their impact and obtain the "Open FootPrint Certified" seal, similar to the idea of an "organic" product rating.
+							</div>							
+						
+						</div>
+						
+
+
+					</div>
+
+					<footer>
+						<a href="#features" class="button">Learn More</a>
+					</footer>
+				</div>
+			</section>
+
+
+		<!-- Three -->
+		
+			<section id="features" clas="wrapper align-center">
+				<div class="inner">
+<!--					<div class="flex flex-2">-->
+						<div class="flex flex-3">
+						<article class="features_flex">	
+							<div>
+								<span class="icon fa-calculator"></span>
+								<h3>Quantify</h3>
+								<p>Open Footprint uses sophisticated AI to quantify your actual carbon footprint.</p>
+							</div>
+
+							<div>
+<!--								<i class="fas fa-chart-pie"></i>-->
+								<span class="icon fa-chart-pie"></span>
+								<h3>Analyze</h3>
+								<p>Analyze your consumption patterns and see where you can make improvements and changes.</p>
+							</div>
+
+							<div>
+								<span class="icon fa-shopping-basket"></span>
+								<h3>Purchase Offsets</h3>
+								<p>Purchase offsets based on your consumption patterns and help fund carbon-reducing companies and projects.</p>
+							</div>
+						</article>	
+							</div>
+					</div>
+					
+				
+			</section>
+		
+		
+			<section id="three" class="wrapper align-center">
+				<div class="inner">
+					<div class="flex flex-2">
+						<article>
+							<div class="image round">
+								<img src="images/daily-sq.jpg" alt="daily consumption" class="daily" />
+							</div>
+							<header>
+								<h3>Daily Stats</h3>
+							</header>
+							<p>See when you are consuming more &amp; make adjustments to lower daily impact.</p>
+							<footer>
+								<a href="#contactus" class="button">Learn More</a>
+							</footer>
+						</article>
+						<article>
+							<div class="image round">
+								<img src="images/basket_big.jpg" alt="basket" class="basket_lrg" />
+							</div>
+							<header>
+								<h3>Purchase Offsets</h3>
+							</header>
+							<p>Purchase offsets based on real data &amp; fund companies makeing a difference.</p>
+							<footer>
+								<a href="#contactus" class="button">Learn More</a>
+							</footer>
+						</article>
+					</div>
+				</div>
+			</section>
+		
+			<section id="begreen" clas="wrapper align-center">
+				<div class="inner">
+					<div class="be_text">
+						<div class="be_text_sml">Make data informed decisions about your consumption patterns. </div>
+						Be Aware, Be Informed, Be Green.	
+					</div>		
+				</div>
+			</section>	
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner" id="contactus">
+
+					<h3>Get in touch</h3>
+
+					<form name="contact_form" action="/handle_form" method="post">
+
+						<div class="field half first">
+							<label for="name">Name</label>
+							<input name="name" id="name" type="text" placeholder="Name">
+						</div>
+						<div class="field half">
+							<label for="email">Email</label>
+							<input name="email" id="email" type="email" placeholder="Email">
+						</div>
+						<div class="field">
+							<label for="message">Message</label>
+							<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+						</div>
+						<ul class="actions">
+							<li><input value="Send Message" class="button alt" type="submit"></li>
+						</ul>
+					</form>
+
+					<div class="copyright">
+						&copy; OpenFootprint.io
+					</div>
+
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+		
+		<script language="javascript">
+			var frmvalidator = new Validator("contactform");
+			frmvalidator.addValidation("name","req","Please provide your name"); 
+			frmvalidator.addValidation("email","req","Please provide your email");
+			frmvalidator.addValidation("email","email", "Please enter a valid email address");
+		</script>
+		
+		
+
+	</body>
+</html>
